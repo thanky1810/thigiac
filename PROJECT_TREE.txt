@@ -1,0 +1,63 @@
+Computer_Vision_BT2/
+├── data/
+│   └── images/
+│       └── README.md
+├── notebooks/
+│   ├── 00_project_guide.ipynb
+│   ├── 01_harris_classic.ipynb
+│   ├── 02_harris_laplace.ipynb
+│   ├── 03_anms.ipynb
+│   ├── 04_region_growing.ipynb
+│   ├── 05_seeded_region_growing.ipynb
+│   └── 06_integrated_comparison.ipynb
+├── outputs/
+│   ├── figures/
+│   │   ├── harris_scale_comparison.png
+│   │   ├── integrated_anms.png
+│   │   ├── integrated_harris_laplace.png
+│   │   ├── integrated_rg_srg.png
+│   │   ├── region_growing_srg_comparison.png
+│   │   ├── srg_boundary.png
+│   │   ├── srg_growth_frames.png
+│   │   ├── srg_seed_sensitivity.png
+│   │   ├── srg_tie_breaking.png
+│   │   └── topn_anms_comparison.png
+│   └── tables/
+│       ├── harris_scale_comparison.csv
+│       ├── harris_vs_harris_laplace.csv
+│       ├── region_growing_srg_comparison.csv
+│       ├── region_growing_vs_srg.csv
+│       ├── topn_anms_comparison.csv
+│       └── topn_vs_anms.csv
+├── references/
+│   ├── Bao_cao_thanh_vien_SRG.docx
+│   ├── De_bai_Bai_tap_2_Thi_giac_may_tinh.pdf
+│   └── Phan_cong_nhiem_vu_nhom.docx
+├── scripts/
+│   └── run_all.py
+├── src/
+│   └── cv_bt2/
+│       ├── corner/
+│       │   ├── __init__.py
+│       │   ├── anms.py
+│       │   ├── harris_classic.py
+│       │   ├── harris_laplace.py
+│       │   └── metrics.py
+│       ├── data/
+│       │   ├── __init__.py
+│       │   └── synthetic.py
+│       ├── segmentation/
+│       │   ├── __init__.py
+│       │   ├── metrics.py
+│       │   ├── region_growing.py
+│       │   └── srg.py
+│       ├── __init__.py
+│       ├── experiments.py
+│       └── visualization.py
+├── tests/
+│   └── test_algorithms.py
+├── .gitignore
+├── pyproject.toml
+├── README.md
+├── requirements.txt
+└── TEAM_5_MEMBERS.md

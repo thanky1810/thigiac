@@ -1,0 +1,3 @@
+﻿method,N,grid_occupancy_8x8
+Top-N,100,0.25
+ANMS,100,0.375

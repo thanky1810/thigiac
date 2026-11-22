@@ -1,0 +1,3 @@
+﻿method,points_1x,points_3x,repeatability
+Harris,25,81,1.0
+Harris-Laplace,13,81,1.0
